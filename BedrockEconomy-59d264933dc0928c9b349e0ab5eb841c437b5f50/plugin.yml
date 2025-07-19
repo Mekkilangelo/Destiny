@@ -1,0 +1,27 @@
+name: BedrockEconomy
+version: 4.0.4
+api: [ 5.0.0 ]
+author: cooldogedev
+main: cooldogedev\BedrockEconomy\BedrockEconomy
+description: An economy plugin focused on stability and simplicity
+website: "https://github.com/cooldogepm/BedrockEconomy"
+load: STARTUP
+permissions:
+  bedrockeconomy.command.balance:
+    description: Allows users to view their balance
+    default: true
+  bedrockeconomy.command.pay:
+    description: Allows users to pay others with their balance
+    default: true
+  bedrockeconomy.command.rich:
+    description: Allows users to view the top balances
+    default: true
+  bedrockeconomy.command.addbalance:
+    description: Allows users to add balance points to others
+    default: op
+  bedrockeconomy.command.removebalance:
+    description: Allows users to remove balance points from others
+    default: op
+  bedrockeconomy.command.setbalance:
+    description: Allows users to change others balance
+    default: op
